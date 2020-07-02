@@ -1,6 +1,8 @@
 .page {
   height: 100vh;
   position: fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
   width: 100%;
   top: 0;
   transition: opacity 0.5s ease-in-out;
