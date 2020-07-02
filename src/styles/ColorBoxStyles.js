@@ -18,11 +18,11 @@ export default {
       },
       [sizes.down("md")]: {
          width: "50%",
-         height: props => (props.showLink ? "10%" : "20%")
+         height: props => (props.showLink ? "20%" : "33%")
       },
       [sizes.down("xs")]: {
          width: "100%",
-         height: props => (props.showLink ? "5%" : "10%")
+         height: props => (props.showLink ? "20%" : "33%")
       }
    },
    copyText: {
