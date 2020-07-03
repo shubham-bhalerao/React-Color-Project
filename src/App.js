@@ -58,8 +58,8 @@ class App extends Component {
       return (
          <Route
             render={({ location }) => (
-               <TransitionGroup>
-                  <CSSTransition key={location.key} classNames='page' timeout={500}>
+               // <TransitionGroup>
+                  // <CSSTransition key={location.key} classNames='page' timeout={500}>
                      <Switch location={location}>
                         <Route
                            exact
@@ -128,8 +128,8 @@ class App extends Component {
                            )}
                         />
                      </Switch>
-                  </CSSTransition>
-               </TransitionGroup>
+                  // </CSSTransition>
+               // </TransitionGroup>
             )}
          />
       );
