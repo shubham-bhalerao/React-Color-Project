@@ -5,9 +5,9 @@
   overflow-x: hidden;
   width: 100%;
   top: 0;
-  transition: opacity 0.5s ease-in-out;
+  /* transition: opacity 0.5s ease-in-out; */
 }
-.page-enter {
+/* .page-enter {
   opacity: 0;
 }
 .page-enter-active {
@@ -15,4 +15,4 @@
 }
 .page-exit-active {
   opacity: 0;
-}
+} */
